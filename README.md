@@ -39,3 +39,39 @@
             <a href="https://www.youtube.com/watch?v=nCmIwcycUJ8">
                 <img src="https://img.youtube.com/vi/nCmIwcycUJ8/maxresdefault.jpg" />
             </a>
+.css
++16
+-4
+Original file line number	Diff line number	Diff line change
+    background: black;
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    font-size: 20px;
+}
+
+img {
+    height: 200px;
+}
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid green;
+}
+.categoria h2 {
+    color: rgb(42, 122, 228);
+}
